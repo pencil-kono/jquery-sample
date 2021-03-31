@@ -1,0 +1,71 @@
+.swiper-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 300px;
+  color: #fff;
+  font-size: 3rem; }
+.swiper-wrapper .slide-1 {
+  background: #ffb3be; }
+.swiper-wrapper .slide-2 {
+  background: #87ceeb; }
+.swiper-wrapper .slide-3 {
+  background: #58dc58; }
+
+.swiper-exam-wrapper {
+  margin-bottom: 48px; }
+  .swiper-exam-wrapper h3 {
+    position: relative;
+    padding: 8px 20px;
+    font-size: 1.4rem;
+    margin-top: 40px; }
+    .swiper-exam-wrapper h3::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 3px;
+      width: 6px;
+      height: 100%;
+      background: #8a8a8a; }
+  .swiper-exam-wrapper .swiper-exam {
+    margin: 20px 0 40px 0; }
+    .swiper-exam-wrapper .swiper-exam .swiper-container-1 {
+      height: 20vw;
+      min-height: 250px;
+      max-height: 300px; }
+    .swiper-exam-wrapper .swiper-exam .swiper-container-2 {
+      height: 20vw;
+      min-height: 250px;
+      max-height: 300px; }
+    .swiper-exam-wrapper .swiper-exam .swiper-container-3 {
+      height: 20vw;
+      max-height: 300px; }
+    .swiper-exam-wrapper .swiper-exam .double-swiper {
+      overflow: hidden; }
+      .swiper-exam-wrapper .swiper-exam .double-swiper .swiper-container-4 {
+        height: 20vw;
+        max-height: 300px; }
+      .swiper-exam-wrapper .swiper-exam .double-swiper #thumb {
+        margin-bottom: 10px;
+        position: relative; }
+        .swiper-exam-wrapper .swiper-exam .double-swiper #thumb .swiper-slide {
+          height: 100%;
+          opacity: 1; }
+      .swiper-exam-wrapper .swiper-exam .double-swiper #slide {
+        max-height: 150px; }
+        .swiper-exam-wrapper .swiper-exam .double-swiper #slide .swiper-wrapper {
+          transition: 0.2s opacity; }
+          .swiper-exam-wrapper .swiper-exam .double-swiper #slide .swiper-wrapper .swiper-slide {
+            cursor: pointer; }
+          .swiper-exam-wrapper .swiper-exam .double-swiper #slide .swiper-wrapper .swiper-slide-active {
+            border: 4px solid #f89174;
+            opacity: 1; }
+          .swiper-exam-wrapper .swiper-exam .double-swiper #slide .swiper-wrapper .swiper-slide-prev {
+            margin-right: 8px;
+            opacity: 0.2; }
+          .swiper-exam-wrapper .swiper-exam .double-swiper #slide .swiper-wrapper .swiper-slide-next {
+            margin-left: 8px;
+            opacity: 0.2; }
+
+/*# sourceMappingURL=swiper.css.map */

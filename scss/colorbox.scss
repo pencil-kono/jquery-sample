@@ -1,0 +1,43 @@
+@import "common";
+
+// colorbox
+.only-wrap{
+	h3{
+		@include h3();
+	}
+}
+
+.slide-wrap{
+	h3{
+		@include h3();
+	}
+}
+
+.iframe-wrap{
+	h3{
+		@include h3();
+	}
+	a{
+		color: #5DB8CA;
+		font-size: 1.2em;
+		&:hover{
+			color : #ff7043;
+		}
+	}
+}
+
+.colorbox-wrapper{
+	display: flex;
+	width: 100%;
+	margin-top: 1.5vw;
+	flex-wrap: wrap;
+	
+	.colorbox-item{
+		display: block;
+		margin: 0 24px 24px 0;
+		img{
+			width: 300px;
+			height: 200px;
+		}
+	}
+}

@@ -1,0 +1,63 @@
+.only-wrap h3 {
+  position: relative;
+  padding: 8px 20px;
+  font-size: 1.4rem;
+  margin-top: 40px; }
+  .only-wrap h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    width: 6px;
+    height: 100%;
+    background: #8a8a8a; }
+
+.slide-wrap h3 {
+  position: relative;
+  padding: 8px 20px;
+  font-size: 1.4rem;
+  margin-top: 40px; }
+  .slide-wrap h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    width: 6px;
+    height: 100%;
+    background: #8a8a8a; }
+
+.iframe-wrap h3 {
+  position: relative;
+  padding: 8px 20px;
+  font-size: 1.4rem;
+  margin-top: 40px; }
+  .iframe-wrap h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    width: 6px;
+    height: 100%;
+    background: #8a8a8a; }
+.iframe-wrap a {
+  color: #5DB8CA;
+  font-size: 1.2em; }
+  .iframe-wrap a:hover {
+    color: #ff7043; }
+
+.colorbox-wrapper {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5vw;
+  flex-wrap: wrap; }
+  .colorbox-wrapper .colorbox-item {
+    display: block;
+    margin: 0 24px 24px 0; }
+    .colorbox-wrapper .colorbox-item img {
+      width: 300px;
+      height: 200px; }
+
+/*# sourceMappingURL=colorbox.css.map */

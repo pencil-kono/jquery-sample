@@ -1,0 +1,50 @@
+.code-wrapper{
+	display: flex;
+	flex-direction: column;
+
+
+	.html-wrapper{
+		margin-bottom: 32px;
+	}
+
+	.js-wrapper{
+		margin-bottom: 32px;
+	}
+
+	.copy{
+		background-color: #000000;
+		color: #ffffff;
+		border-radius: 0 6px 6px 6px;
+		padding: 12px;
+	}
+
+
+
+	.btn-wrapper{
+		display: flex;
+		justify-content: start;
+
+		.language{
+			margin-right: 32px;
+			color: #fff;
+			background-color: #7ab977;
+			padding: 8px;
+			border-radius: 6px 6px 0 0;
+		}
+
+		.btn-copy{
+			color: #8a8a8a;
+			
+			&:hover{
+				font-weight: bold;
+			}
+			&.is-active{
+				transition: all 0.4s;
+				font-weight: bold;
+				opacity: 1;
+				color: #f89174;
+			}
+		}
+	}
+}
+
