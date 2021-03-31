@@ -13,18 +13,18 @@
 	}
 }
 
-.iframe-wrap{
-	h3{
-		@include h3();
-	}
-	a{
-		color: #5DB8CA;
-		font-size: 1.2em;
-		&:hover{
-			color : #ff7043;
-		}
-	}
-}
+// .iframe-wrap{
+// 	h3{
+// 		@include h3();
+// 	}
+// 	a{
+// 		color: #5DB8CA;
+// 		font-size: 1.2em;
+// 		&:hover{
+// 			color : #ff7043;
+// 		}
+// 	}
+// }
 
 .colorbox-wrapper{
 	display: flex;

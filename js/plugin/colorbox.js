@@ -11,11 +11,4 @@ $(function(){
     maxHeight: "90%",
     opacity: 0.7
   });
-
-  $(".colorbox_exam_iframe").colorbox({
-    iframe: true,
-    maxWidth: "100%",
-    maxHeight: "100%",
-    opacity: 0.7
-  });
 });

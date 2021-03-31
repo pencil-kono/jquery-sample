@@ -39,12 +39,6 @@ $colorbox_slide = <<<TXT
 </a>
 TXT;
 
-
-$colorbox_iframe = <<<TXT
-<a class="colorbox_exam_iframe colorbox-item" href="https://www.pencil.co.jp/">iframeで表示</a>
-TXT;
-
-
 $code_html_arr = array(
   array(
     '<a class="colorbox-item" href="画像パス" title="タイトル">',
@@ -61,9 +55,6 @@ $code_html_arr = array(
     '<a class="colorbox-item" href="画像パス" title="タイトル">',
     '<img src="画像パス" alt="" />',
     '</a>',
-  ),
-  array(
-    '<a class="colorbox_exam_iframe" href="https://www.pencil.co.jp/about/organization/">iframeで表示</a>'
   ),
 );
 
@@ -88,14 +79,6 @@ $code_js_arr = array(
     'opacity: 0.7',
     '});',    
     ),
-  array(
-    '$(".colorbox_exam_iframe").colorbox({',
-    'iframe: true,',
-    'maxWidth:"80%",',
-    'maxHeight:"80%",',
-    'opacity: 0.7',
-    '});',
-  )
 );
 
 $code_num = count($code_html_arr);
@@ -137,14 +120,7 @@ $page_html = <<<TXT
         {$copy_str_1}
     </div>
 
-    <div class="iframe-wrap">
-        <h3>iframeで表示</h3>
-        <div class="colorbox-wrapper">
-            {$colorbox_iframe}
-        </div>
-        {$copy_str_2}
-    </div>
-
+    
     <div class="plug-explain">
         <h2>解説ページ</h2>
         <a href="https://gimmicklog.com/jquery/299/">https://gimmicklog.com/jquery/299/</a>
